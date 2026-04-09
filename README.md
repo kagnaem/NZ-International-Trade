@@ -31,6 +31,7 @@ The notebook has been structured as a complete project document for GitHub reade
 - trade distribution charts
 - time-based trade trend visuals
 - yearly time-series analysis for imports, exports, and CPI
+- forecasting comparison using workbook-based reference methods
 - year-by-year boxplot comparisons
 - result interpretation and insights after each major section
 
@@ -43,11 +44,22 @@ This addition helps readers:
 - understand CPI movement alongside trade values
 - follow the project more easily as a complete analytical narrative on GitHub
 
+## Forecasting Analysis
+Using the last four sheets of the Excel workbook as reference, the notebook now includes a forecasting section focused on yearly average exports.
+
+The forecasting comparison covers:
+- Average forecast
+- Moving average forecast
+- Simple exponential smoothing (SES)
+- Holt trend smoothing
+
+The notebook compares these methods using forecast error metrics and concludes that **Holt trend smoothing** is the strongest fit for the yearly average export series in the available data.
+
 ## Project Visual
 ![New Zealand International Trade Visual](https://github.com/user-attachments/assets/d431f237-d71d-4c0d-8f7e-11e378496936)
 
 ## Why This Project Matters
-This project shows how trade data from multiple sources can be combined and analysed to produce a clearer understanding of New Zealand's international trade patterns. It also demonstrates how a school project can be transformed into a more readable GitHub portfolio piece with reproducible analysis, time-series interpretation, and supporting documentation.
+This project shows how trade data from multiple sources can be combined and analysed to produce a clearer understanding of New Zealand's international trade patterns. It also demonstrates how a school project can be transformed into a more readable GitHub portfolio piece with reproducible analysis, time-series interpretation, forecasting comparison, and supporting documentation.
 
 ## Summary
 This repository combines project documentation, source data, spreadsheet-based analysis, and a Python notebook so readers can understand both the original project context and the updated analytical workflow.
