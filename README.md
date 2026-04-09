@@ -30,14 +30,24 @@ The notebook has been structured as a complete project document for GitHub reade
 - correlation analysis
 - trade distribution charts
 - time-based trade trend visuals
+- yearly time-series analysis for imports, exports, and CPI
 - year-by-year boxplot comparisons
 - result interpretation and insights after each major section
+
+## Time-Series Analysis
+Using the project paper as a broader reference point, the notebook now includes a dedicated time-series section to show how average imports, exports, and CPI move from year to year.
+
+This addition helps readers:
+- connect the exploratory analysis to time-based trade behaviour
+- see how imports and exports change across the observed period
+- understand CPI movement alongside trade values
+- follow the project more easily as a complete analytical narrative on GitHub
 
 ## Project Visual
 ![New Zealand International Trade Visual](https://github.com/user-attachments/assets/d431f237-d71d-4c0d-8f7e-11e378496936)
 
 ## Why This Project Matters
-This project shows how trade data from multiple sources can be combined and analysed to produce a clearer understanding of New Zealand's international trade patterns. It also demonstrates how a school project can be transformed into a more readable GitHub portfolio piece with reproducible analysis and supporting documentation.
+This project shows how trade data from multiple sources can be combined and analysed to produce a clearer understanding of New Zealand's international trade patterns. It also demonstrates how a school project can be transformed into a more readable GitHub portfolio piece with reproducible analysis, time-series interpretation, and supporting documentation.
 
 ## Summary
 This repository combines project documentation, source data, spreadsheet-based analysis, and a Python notebook so readers can understand both the original project context and the updated analytical workflow.
